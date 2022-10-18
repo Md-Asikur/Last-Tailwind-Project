@@ -1,0 +1,67 @@
+#home{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(92, 185, 6, 0.395)),url(../images/exercise.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+#hero-body{
+    position: absolute;
+    top:30%;
+    left: 30%;
+
+}
+#hero-body h1{
+    color:#15f4ee;
+    font-size: 5em;
+    font-family:monospace;
+    letter-spacing: 1px;
+    font-weight: 900;
+}
+#hero-body button{
+    color:#15f4ee;
+   /* display: block;
+   margin: auto; */
+    padding: 10px 50px;
+    font-size: 2rem;
+    border: 2px solid  #15f4ee;
+
+    border-radius: 100px;
+     box-shadow: 0 1px 50px 0 #264e5ed5 inset,0 1px 50px 0 #15a2f4
+
+    ,0 1px 50px 0 #035aa1b0 inset,0 1px 50px 0 #b1f415;
+}
+#hero-body button:hover{
+    box-shadow: 0 5px 50px 0 #15f4ee inset,0 5px 50px 0 #15f4ee
+
+    ,0 5px 50px 0 #15f4ee inset,0 5px 50px 0 #15f4ee;
+}
+.Typewriter__wrapper{
+    color: rgb(72, 3, 182);
+}
+.Typewriter__cursor{
+    color: #15f4ee;
+     box-shadow: 0 0px 10px 0px #15f4ee inset
+
+    
+}
+@media(max-width:768px){
+    #hero-body{
+        position: absolute;
+        left: 10%;
+    }
+#hero-body h1{
+    font-size: 2.3rem;
+}
+#hero-body button{
+    color:#15f4ee;
+   /* display: block;
+   margin: auto; */
+    padding: 5px 20px;
+    font-size: 1rem;
+    border: 1px solid  #15f4ee;
+
+    border-radius: 100px;
+    box-shadow: none;
+    
+}
+}
